@@ -23,6 +23,22 @@
   border-radius: 10px;
 }
 
+.weather-app-wrapper {
+  max-width: 1500px;
+  margin: 30px auto;
+}
+
+.weather-app {
+  max-width: 1500px;
+  margin-top: 100px;
+  padding: 20px;
+  border: 1px solid #dadde1;
+  display: block;
+  background: rgb(163, 166, 182);
+  opacity: 0.9;
+  border-radius: 30px;
+}
+
 .active {
   color: black;
   cursor: default;
@@ -72,12 +88,6 @@
 
 .weather-forecast {
   margin-top: 40px;
-}
-
-.weather-forecast-two {
-  margin-top: 20px;
-  text-align: center;
-  color: #000;
 }
 
 .weather-forecast-date {
