@@ -1,0 +1,54 @@
+.App {
+  max-width: 1500px;
+  margin: 30px auto;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1000;
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  margin: 20;
+  font-style: bold;
+  margin-bottom: 0;
+}
+
+h2 {
+  position: relative;
+  top: 15px;
+  display: inline-block;
+  font-size: 4rem;
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  font-size: small;
+  background: violet;
+  color: white;
+  border: none;
+}
